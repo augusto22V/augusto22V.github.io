@@ -1,0 +1,135 @@
+/* Estilos generales del cuerpo del documento */
+body {
+  background-image: url("../Img/fondo4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el logotipo */
+.logo {
+  float: left;
+  margin-right: 10px;
+}
+
+.contenedor-imagenes {
+  text-align: center;
+  margin: 10px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover img {
+  transform: scale(1.1);
+}
+
+/* Estilos para el contenedor de imágenes de redes sociales */
+.contenedor-img-redes {
+  margin-top: 10px;
+}
+
+.contenedor-img-redes img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+/* Estilos para el nombre del estudiante */
+.contenedor-nombre {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Alegreya Sans';
+  font-size: 20px;
+}
+
+
+
+/* Estilos para el acordeón */
+.accordion {
+  margin-top: 1px;
+}
+
+.accordion-item {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #7dcbf5;
+}
+
+.accordion-header {
+  background-color: #f8f9fa;
+  cursor: pointer;
+  color: #7dcbf5;
+  padding: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.accordion-header i {
+  margin-right: 800px;
+}
+
+.accordion-header:hover {
+  background-color: #87CEEB;
+}
+
+.accordion-body {
+  background-color: #a3a39d;
+  color: #0f0f0f;
+  padding: 10px;
+  display: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.accordion-body.show {
+  display: block;
+}
+
+.contenedor-mensaje {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.contenedor-img-redes {
+  margin-top: 20px;
+}
+#fuente2 {
+  font-family: 'Times new roman', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#fuente3 {
+  font-family: 'Otra fuente', sans-serif;
+  font-size: 18px;
+}
